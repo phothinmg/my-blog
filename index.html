@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./client/css/style.css" />
+    <link rel="stylesheet" href="./client/css/prism.css" />
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon" />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <button
+        style="border: none; background-color: inherit; color: inherit"
+        data-theme-toggle
+      ></button>
+    </nav>
+    <div id="app">
+      <h2 style="text-align: center">My Blog</h2>
+      <div id="content" class="loading">Loading content...</div>
+    </div>
+    <script src="./client/index.js"></script>
+    <script src="./client/js/prism.js"></script>
+    <script src="./client/js/theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/phothinmg/master-repo@main/jsplayground/code-playground.min.js"></script>
+  </body>
+  <script>
+    console.log(window.location.pathname);
+  </script>
+</html>
