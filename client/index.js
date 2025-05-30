@@ -48,7 +48,7 @@ async function loadHome() {
   }
 
   let html = "<h3>Recent Notes</h3>";
-  posts.slice(0, 10).forEach((post) => {
+  posts.slice(0, 20).forEach((post) => {
     html += `
       <div class="post">
         <h4><a href="#post/${post.slug}" onclick="loadPost('${post.slug}')">${post.title}</a></h4>
