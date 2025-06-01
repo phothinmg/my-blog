@@ -1,0 +1,23 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dequal": "^2.0.3",
+    "marked": "^15.0.12",
+    "marked-alert": "^2.1.2",
+    "marked-directive": "^1.0.7",
+    "marked-katex-extension": "^5.1.4"
+  }
+}
