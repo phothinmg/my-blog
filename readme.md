@@ -1,33 +1,21 @@
-# My Blog
+## My Blog
 
 **ယခု Blog Single Page Application (SPA) အား Web Api များအကြောင်း [Deepseek Ai][deepseek] ထံ မေးမြန်းသည်မှတဆင့်သိရှိရသည်များနှင့်ဖန်တီးခဲ့ခြင်းဖြစ်ပါသည်။ ယခု `readme.md` တွင်ရေးသားထားခြင်းအများစုမှာလည်း [Deepseek Ai][deepseek] မှ ဖြေကြားချက်များ အများစုဖြစ်ပါသည်။**
 
-## content
-
-[About](#about)
-
- [အခြေခံအလုပ်လုပ်ပုံ](#အခြေခံအလုပ်လုပ်ပုံ)
-
- [Hash URL နမူနာ](#hash-url-နမူနာ)
-
- [အားသာချက်များ](#အားနည်းချက်များ)
- 
- [အားနည်းချက်များ](#အားသာချက်များ)
-
-## About
+### About
 
 Hash-based Routing ကိုအသုံးပြု၍ Single HTML file တစ်ခုတည်းဖြင့် blog post ကဲ့သို့ dynamic content များကို ဖော်ပြခြင်းဖြစ်ပါသည်။
 
 
 
-### အခြေခံအလုပ်လုပ်ပုံ
+#### အခြေခံအလုပ်လုပ်ပုံ
 
 1. အသုံးပြုသူမှ link နှိပ်ပြီး ပြောင်းခြင်း သို့မဟုတ် Browser မှ URL Change သည့်အခါ နမူနာအနေနှင့် ယခု အတိုင်း ဖြစ်မည်
    https://example.com#page1,https://example.com#about, request path အနေနှင့် `#page1` `#about` ဖြစ်မည်။
 
 2. JavaScript က URL ကိုဖတ်ပြီး အလိုက်သင့် data ကိုလက်ခံပြီး page content ကို dynamically update လုပ်သည်။
 
-### Hash URL နမူနာ
+#### Hash URL နမူနာ
 
 ```js
 // Hash URL (#post-123) ကိုအသုံးပြုခြင်း
@@ -42,7 +30,7 @@ async function loadContent() {
 }
 ```
 
-### အားသာချက်များ
+#### အားသာချက်များ
 
 1. Backend မလိုအပ် - Static hosting (GitHub Pages, Netlify, Vercel) တွင်ပင် အလုပ်လုပ်နိုင်
 
@@ -50,7 +38,7 @@ async function loadContent() {
 
 3. Client-side rendering ဖြစ်သောကြောင့် အမြန်နှုန်းမြင့် 
 
-### အားနည်းချက်များ
+#### အားနည်းချက်များ
 
 1. Hash-based routing သည် SEO အတွက် အကောင်းဆုံး ရွေးချယ်မှု မဟုတ်နိုင်။
 
